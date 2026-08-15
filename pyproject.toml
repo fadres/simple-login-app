@@ -1,3 +1,26 @@
+[project]
+name = "simple-login-app"
+version = "0.1.0"
+description = "Simple Login Backend"
+dependencies = []
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [tool.black]
 exclude = '''
 (
