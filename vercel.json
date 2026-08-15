@@ -1,13 +1,4 @@
 {
-  "build": {
-    "env": {
-      "ENABLE_UV": "0"
-    }
-  }
-}
-
-
-{
   "builds": [
     {
       "src": "app.py",
@@ -19,5 +10,10 @@
       "src": "/(.*)",
       "dest": "app.py"
     }
-  ]
+  ],
+  "build": {
+    "env": {
+      "ENABLE_UV": "0"
+    }
+  }
 }
